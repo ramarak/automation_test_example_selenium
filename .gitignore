@@ -1,0 +1,38 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+*.egg
+dist/
+build/
+
+# Pytest y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Capturas y reportes generados (se conservan las carpetas)
+evidencias/*
+!evidencias/.gitkeep
+reportes/*
+!reportes/.gitkeep
+
+# Drivers / navegadores locales de prueba
+.wdm/
+.browsers/
+
+# Sistema y temporales de Office
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*.docx
+GUIA_ENTREGA_PDF.md
+REFLEXION_GRUPAL.md
+Taller_Automatizacion_[NombreGrupo].docx

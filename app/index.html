@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Demo AA2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Iniciar sesión</h1>
+    <p class="subtitle">Aplicación de demostración para pruebas funcionales</p>
+    <form id="form-login" novalidate>
+      <label for="usuario">Usuario</label>
+      <input id="usuario" name="usuario" type="text" required autocomplete="username">
+
+      <label for="contrasena">Contraseña</label>
+      <input id="contrasena" name="contrasena" type="password" required autocomplete="current-password">
+
+      <p id="mensaje-error" class="mensaje error" role="alert"></p>
+      <button type="submit" id="btn-ingresar">Ingresar</button>
+    </form>
+    <a class="enlace" href="registro.html">¿No tienes cuenta? Regístrate</a>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
